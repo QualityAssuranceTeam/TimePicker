@@ -1,4 +1,4 @@
-Referrences:
+References:
 https://openui5.hana.ondemand.com/#docs/api/symbols/sap.m.TimePicker.html
 https://openui5.hana.ondemand.com/explored.html#/sample/sap.m.sample.TimePicker/preview
 https://openui5.hana.ondemand.com/explored.html#/sample/sap.m.sample.TimePicker/code/TimePicker.view.xml
@@ -21,7 +21,7 @@ Repeat this test on all test timepickers (TP1 - TP4)
 
 Expected:
 Time is set correctly and change event is fired.
-Exmple change event: Change - Event 1: TimePicker __xmlview3--TP1:20:15
+Example change event: Change - Event 1: TimePicker __xmlview3--TP1:20:15
 
 TC2:
 Set time using clock icon and Cancel
@@ -101,10 +101,10 @@ Note:
 Repeat this test on all test timepickers (TP1 - TP4)
 
 1. Click on TP1, delete the default value and click outside the box.
-2. The palceholder set in the view.xml appears in the input field of TP1 (placeholder="Enter meeting start time").
+2. The placeholder set in the view.xml appears in the input field of TP1 (placeholder="Enter meeting start time").
 3. Check that TP2 displays the placeholder set in the view.xml ( placeholder="Enter meeting end time").
 4. Click on TP3, delete the default value and click outside the box.
-5. The palceholder set in the view.xml appears in the input field of TP3 ( placeholder="Enter daily task deadline").
+5. The placeholder set in the view.xml appears in the input field of TP3 ( placeholder="Enter daily task deadline").
 6. Check that TP4 displays the placeholder set in the view.xml ( placeholder="Enter time").
 
 Expected:
@@ -128,13 +128,12 @@ Check localized time picker.
 
 1. Refresh the Sample:TimePicker page.
 2. Click on the clock icon of TP1.
-3. Check that the timepicket is set to the default value of that field ( value="19:15").
+3. Check that the timepicker is set to the default value of that field ( value="19:15").
 4. Click on the clock icon of TP2 or TP4.
 5. Check that the timepicker is set to the current time of the client machine.
 6. Click on the clock icon of TP3.
-7. Check that the timepicket is set to the time taken at the initial page load (on step 1).
+7. Check that the timepicker is set to the time taken at the initial page load (on step 1).
 
 Expected:
 Time picker gadget is set to the time entered in the input field otherwise takes the current time.
-
 
