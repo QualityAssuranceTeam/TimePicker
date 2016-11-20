@@ -92,8 +92,8 @@ Check prepopulated and default values.
 4. Check if TP1 is initially populated with the default value set in the view.xml(```value="19:15"```).
 
 **Expected:**
-TP3 is initially prepopulated with the current time.
-TP1 is initially prepopulated with the default value set in the view.xml.
+TP3 is initially prepopulated with the current time.  
+TP1 is initially prepopulated with the default value set in the view.xml.  
 There is no change event fired for that.
 
 **TC8:**
