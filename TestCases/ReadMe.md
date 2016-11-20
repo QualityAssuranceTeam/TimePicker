@@ -10,7 +10,8 @@ Referrences:
 * [Test Environment](https://openui5.hana.ondemand.com/explored.html#/sample/sap.m.sample.TimePicker/preview "Link to the preview")
 * [TimePicker.view.xml](https://openui5.hana.ondemand.com/explored.html#/sample/sap.m.sample.TimePicker/code/TimePicker.view.xml "Source code")
 * [TimePicker.controller.js](https://openui5.hana.ondemand.com/explored.html#/sample/sap.m.sample.TimePicker/code/TimePicker.controller.js "Source code")
-
+  
+  ---------
 **TC1:**
 Set time using clock icon and Save  
 **Note:**
