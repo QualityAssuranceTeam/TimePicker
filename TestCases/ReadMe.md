@@ -1,15 +1,14 @@
 Test Suite: TimePicker
 ======================
+**TODO:**
+* Check on different supported browsers and devices.
+* Check for both RTL and LTR languages.
 Referrences:
 ------------
 * [TimePicker API](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.m.TimePicker.html "Link to API documentation")
 * [Test Environment](https://openui5.hana.ondemand.com/explored.html#/sample/sap.m.sample.TimePicker/preview "Link to the preview")
 * [TimePicker.view.xml](https://openui5.hana.ondemand.com/explored.html#/sample/sap.m.sample.TimePicker/code/TimePicker.view.xml "Source code")
 * [TimePicker.controller.js](https://openui5.hana.ondemand.com/explored.html#/sample/sap.m.sample.TimePicker/code/TimePicker.controller.js "Source code")
-
-**TODO:**
-* Check on different supported browsers and devices.
-* Check for both RTL and LTR languages.
 
 **TC1:**
 Set time using clock icon and Save  
