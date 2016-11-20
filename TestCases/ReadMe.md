@@ -1,17 +1,17 @@
 Test Suite: TimePicker
 ======================
-**TODO:**
-* Check on different supported browsers and devices.
-* Check for both RTL and LTR languages.
-
 Referrences:
 ------------
 * [TimePicker API](https://openui5.hana.ondemand.com/#docs/api/symbols/sap.m.TimePicker.html "Link to API documentation")
 * [Test Environment](https://openui5.hana.ondemand.com/explored.html#/sample/sap.m.sample.TimePicker/preview "Link to the preview")
 * [TimePicker.view.xml](https://openui5.hana.ondemand.com/explored.html#/sample/sap.m.sample.TimePicker/code/TimePicker.view.xml "Source code")
 * [TimePicker.controller.js](https://openui5.hana.ondemand.com/explored.html#/sample/sap.m.sample.TimePicker/code/TimePicker.controller.js "Source code")
+
+**TODO:**
+* Check on different supported browsers and devices.
+* Check for both RTL and LTR languages.
   
-  ---------
+---------
 **TC1:**
 Set time using clock icon and Save  
 **Note:**
@@ -24,7 +24,8 @@ Repeat this test on all test timepickers (TP1 - TP4)
 **Expected:**  
 Time is set correctly and change event is fired.  
 Example change event: ```Change - Event 1: TimePicker __xmlview3--TP1:20:15```
-
+  
+---------
 **TC2:**
 Set time using clock icon and Cancel   
 **Note:**
@@ -36,7 +37,8 @@ Repeat this test on all test timepickers (TP1 - TP4)
 
 **Expected:**  
 Time is not set and there is no change event fired.  
-
+  
+---------
 **TC3:**
 Set time using the text input with valid data.  
 **Note:**
@@ -48,7 +50,8 @@ Repeat this test on all test timepickers (TP1 - TP4)
 
 **Expected:**  
 Time is set correctly and change event is fired.
-
+  
+---------
 **TC4:**
 Set time using the text input field with invalid data for hours (12 and 24 hour format).
 
@@ -61,7 +64,8 @@ Set time using the text input field with invalid data for hours (12 and 24 hour 
 
 **Expected:**  
 TimePicker doesn't allow you to enter such values.
-
+  
+---------
 **TC5:**
 Set time using the text input field with invalid data for minutes and seconds
 **Note:** 
@@ -73,7 +77,8 @@ Repeat this test on all test timepickers (TP1 - TP4)
 
 **Expected:**  
 TimePicker doesn't allow you to enter such values.
-
+  
+---------
 **TC6:**
 Set time using the text input field with invalid data for part of the day (AM/PM).
 
@@ -83,7 +88,8 @@ Set time using the text input field with invalid data for part of the day (AM/PM
 
 **Expected:**
 TimePicker doesn't allow you to enter such values for AM and PM.
-
+  
+---------
 **TC7:**
 Check prepopulated and default values.
 
@@ -96,7 +102,8 @@ Check prepopulated and default values.
 TP3 is initially prepopulated with the current time.  
 TP1 is initially prepopulated with the default value set in the view.xml.  
 There is no change event fired for that.
-
+  
+---------
 **TC8:**
 Check placeholders.
 
@@ -109,7 +116,8 @@ Check placeholders.
 
 **Expected:**  
 The correct placeholders are displayed in the input fields.
-
+  
+---------
 **TC9:**
 Check time format.
 
@@ -122,7 +130,8 @@ Check time format.
 
 **Expected:**  
 The correct time format pattern is displayed in the input field while entering data.
-
+  
+---------
 **TC10:**
 Check localized time picker.
 
