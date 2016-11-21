@@ -67,7 +67,7 @@ TimePicker doesn't allow you to enter such values.
   
 ---------
 **TC5:**
-Set time using the text input field with invalid data for minutes and seconds
+Set time using the text input field with invalid data for minutes and seconds  
 **Note:** 
 Repeat this test on all test timepickers (TP1 - TP4)
 
