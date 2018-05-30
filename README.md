@@ -5,6 +5,4 @@ Test Cases and Bug reports for the TimePicker controller.
 
 **[Issues found](https://github.com/QualityAssuranceTeam/TimePicker/issues)**
 
-**[Web Driver](https://github.com/QualityAssuranceTeam/TimePicker/tree/master/WebDriver)**
-
-**[Unit Tests](https://github.com/QualityAssuranceTeam/TimePicker/tree/master/UnitTests)**
+**[Test Environment](https://openui5.hana.ondemand.com/#/sample/sap.m.sample.TimePicker/preview)**
